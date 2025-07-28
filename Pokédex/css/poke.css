@@ -1,0 +1,192 @@
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+  body {
+      background-color: #f7f7f7;
+      height: 100vh;
+      text-align: center;
+      align-items: center;
+      padding: 50px;
+      font-family: 'Press Start 2P', cursive;
+    }
+    h1 {
+      color: #FFCB05;
+      text-shadow: #3D7DCA 3px 3px 1px;
+    }
+    p{
+      margin: 10px;
+      font-size: 14px;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+      width: 200px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-family: 'Press Start 2P', cursive;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #FFCB05;
+      color: white;
+      border: #3D7DCA solid 2px;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-family: 'Press Start 2P', cursive;
+    }
+    button:hover {
+      background-color: #3D7DCA;
+    }
+
+
+    .pokemon-info {
+      margin-top: 30px;
+  
+    }
+
+    .pokemon-info img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 14px;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+
+    .pokemon-stats {
+      margin-top: 20px;
+      margin-left: 10px;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1.8;
+      text-transform: capitalize;
+      width: 300px;
+      padding: 5px;
+      border-radius: 15px;
+    }
+
+    .ladoAlado {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: black solid 1px;
+      box-shadow: #202020 2px 2px 10px;
+      border-radius: 12px;
+      margin-left: 343px; 
+      width: 540px;
+    }
+
+    /* Estilos de Tipos de Pokémon */
+    .fire{
+      background-color: #ff7043;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .ice{
+      background-color: #81d4fa;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .water{
+      background-color: #4fc3f7;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .grass{
+      background-color: #66bb6a;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .electric{
+      background-color: #ffeb3b;
+      color: black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .rock{
+      background-color: #8d6e63;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .ground{
+      background-color: #a1887f;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .flying{
+      background-color: #90caf9;
+      color: black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .poison{
+      background-color: #ab47bc;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .bug{
+      background-color: #79c424;
+      color: black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .psychic{
+      background-color: #f06292;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .ghost{
+      background-color: #d1cbcb;
+      color: rgb(0, 0, 0);
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .dragon{
+      background-color: #ff8a65;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .dark{
+      background-color: #202020;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .steel{
+      background-color: #90a4ae;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .fairy{
+      background-color: #f48fb1;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .fighting{
+      background-color: #8b2c9e;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .normal{
+      background-color: #bdbdbd;
+      color: black;
+      padding: 5px;
+      border-radius: 5px;
+    }
