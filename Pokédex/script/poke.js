@@ -24,6 +24,9 @@ button.addEventListener('click', function() {
   fetch(url)
     .then(resposta => {
       if (!resposta.ok) {
+        statsDiv.innerText = ""
+        pokeNomeDiv.innerText = ""
+        pokebox.classList.remove("ladoAlado");     
         throw new Error("Pokémon não encontrado");
       }
       return resposta.json();
